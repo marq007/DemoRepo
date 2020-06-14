@@ -33,7 +33,7 @@ public class CountMaxOccurenceInString {
 	}
 
 	private static char getMaxPeople(char[] peoples) {
-		
+		//Java 7 
 		HashMap<Character,Integer> peoplePopMap = new HashMap<Character, Integer>();
 		
 		for(char person : peoples) {
