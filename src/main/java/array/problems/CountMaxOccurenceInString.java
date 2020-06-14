@@ -34,7 +34,7 @@ public class CountMaxOccurenceInString {
 
 	private static char getMaxPeople(char[] peoples) {
 		
-		HashMap<Character,Integer> peoplePopMap = new HashMap<>();
+		HashMap<Character,Integer> peoplePopMap = new HashMap<Character, Integer>();
 		
 		for(char person : peoples) {
 			if(peoplePopMap.containsKey(person)) {
